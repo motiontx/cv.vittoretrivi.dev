@@ -183,5 +183,9 @@ export default {
     margin: 3.1mm;
     padding: 3.1mm;
   }
+
+  .version{
+    display: none;
+  }
 }
 </style>
