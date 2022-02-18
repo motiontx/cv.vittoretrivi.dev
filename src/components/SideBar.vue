@@ -64,6 +64,9 @@ export default {
   },
   methods: {
     downloadCv() {
+      this.$gtag.event("CV Download", {
+        event_category: this.lang,
+      });
       Bus.$emit("download-cv");
     },
   },
