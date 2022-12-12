@@ -13,10 +13,21 @@ export const skills = [
     { skill: "Nuxt.js", color: "#35495e", url: "https://nuxtjs.org/" },
   ],
   [
-    { skill: "Chakra UI", color: "#319795", url: "https://chakra-ui.com/" },
-    { skill: "Material UI", color: "#0364d4", url: "https://material-ui.com/" },
+    { skill: "Three.js", color: "#000000", url: "https://threejs.org/" },
+    {
+      skill: "Framer Motion",
+      color: "#ff008c",
+      url: "https://www.framer.com/motion/",
+    },
   ],
-  [{ skill: "Three.js", color: "#000000", url: "https://threejs.org/" }],
+  [
+    {
+      skill: "Typescript",
+      color: "#007acc",
+      url: "https://www.typescriptlang.org/",
+    },
+  ],
+  [{ skill: "SASS", color: "#cc6699", url: "https://sass-lang.com/" }],
   [
     {
       skill: "Contentful",
@@ -29,18 +40,16 @@ export const skills = [
       url: "https://developer.wordpress.org/rest-api/",
     },
   ],
+
+  [
+    { skill: "Chakra UI", color: "#319795", url: "https://chakra-ui.com/" },
+    { skill: "Material UI", color: "#0364d4", url: "https://material-ui.com/" },
+  ],
+
   [
     { skill: "Node.js", color: "#68a063", url: "https://nodejs.org/" },
     { skill: "Prisma", color: "#38a169", url: "https://prisma.io/" },
     { skill: "MongoDB", color: "#5C3629", url: "https://www.mongodb.com/" },
   ],
-  [
-    {
-      skill: "Typescript",
-      color: "#007acc",
-      url: "https://www.typescriptlang.org/",
-    },
-  ],
-  [{ skill: "SASS", color: "#cc6699", url: "https://sass-lang.com/" }],
   [{ skill: "Design Systems", color: "#e05a33" }],
 ];

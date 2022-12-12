@@ -1,8 +1,8 @@
 <template>
   <Section :title="courses.title">
     <div v-for="(c, i) in courses.courses" :key="i" class="course">
-      <small class="bold uppercase">{{ c.date }}</small>
-      <p class="bold uppercase accent">{{ c.degree }}</p>
+      <small class="bold uppercase date">{{ c.date }}</small>
+      <p class="bold uppercase accent title">{{ c.degree }}</p>
       <p v-if="!c.url" class="bold">
         {{ c.institution }}
       </p>
@@ -30,6 +30,19 @@ export default {
 
 <style scoped>
 .course:not(:last-child) {
-  margin-bottom: 3mm;
+  margin-bottom: 2mm;
+}
+
+.date {
+  display: block;
+  line-height: 2;
+}
+
+.title {
+  line-height: 1.2;
+}
+
+.course a {
+  line-height: 1.2;
 }
 </style>

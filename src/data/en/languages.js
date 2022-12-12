@@ -5,6 +5,6 @@ export const languages = [
   },
   {
     name: "English",
-    level: "Intermediate",
+    level: "Upper Intermediate",
   },
 ];

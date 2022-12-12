@@ -23,6 +23,7 @@ export default {
 .container__info {
   display: flex;
   margin-top: auto;
+  justify-content: center;
 }
 
 .item {
@@ -33,7 +34,11 @@ export default {
   margin-right: 1.5mm;
   font-size: 1.25em;
 }
-
+@media screen and (max-width: 240mm) {
+  .container__info {
+    margin-top: 4.1mm;
+  }
+}
 @media screen and (max-width: 180mm) {
   .container__info {
     flex-direction: column;

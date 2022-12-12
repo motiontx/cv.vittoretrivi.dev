@@ -18,7 +18,7 @@
           <div class="column--2">
             <Experience :jobs="currentCv.jobs" />
             <Education :courses="currentCv.studies" />
-            <Education :courses="currentCv.courses" />
+            <Education :courses="currentCv.courses" class="courses" />
           </div>
         </div>
         <Contact :contact="currentCv.contact" />
@@ -116,6 +116,7 @@ export default {
   width: calc(100% - 8.2mm * 2);
   height: calc(100% - 8.2mm * 2);
   padding: 8.2mm;
+  padding-bottom: 4.1mm;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -123,9 +124,9 @@ export default {
 
 .grid {
   display: grid;
-  margin-top: 10.4mm;
-  grid-template-columns: 50mm 1fr;
-  grid-column-gap: 18mm;
+  margin-top: 8mm;
+  grid-template-columns: 58mm 1fr;
+  grid-column-gap: 9mm;
 }
 
 .column--1 {
@@ -144,6 +145,10 @@ export default {
   font-size: 0.5rem;
 }
 
+.courses {
+  margin-bottom: 0mm;
+}
+
 @media screen and (max-width: 240mm) {
   .wrapper {
     padding: 10mm;
@@ -156,6 +161,7 @@ export default {
     width: unset;
     margin: 8.2mm;
     padding: 8.2mm;
+    padding-bottom: 4.1mm;
   }
 
   .resume {
@@ -184,8 +190,12 @@ export default {
     padding: 3.1mm;
   }
 
-  .version{
+  .version {
     display: none;
+  }
+
+  .courses {
+    margin-bottom: 7mm;
   }
 }
 </style>

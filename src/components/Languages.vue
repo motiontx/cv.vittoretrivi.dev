@@ -23,6 +23,6 @@ export default {
 
 <style scoped>
 .language:not(:last-child) {
-  margin-bottom: 3mm;
+  margin-bottom: 2mm;
 }
 </style>

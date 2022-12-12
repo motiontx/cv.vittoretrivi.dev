@@ -7,6 +7,6 @@ export const jobs = [
     city: "San Francisco",
     country: "USA",
     description:
-      "Involved in multiple projects using technologies like Vue/Nuxt, React/Next, Prisma, Contentful, etc., and with a strong focus on UX/UI.",
+      "Involved in multiple projects with a strong focus on UX/UI using frameworks such as React/Next and Vue/Nuxt. I have developed high quality user interfaces for different websites that required the use of Three.js to implement custom shaders, create Vanilla JavaScript animations, animate SVGs, implement Framer Motion for complex transitions, among other tasks.",
   },
 ];
