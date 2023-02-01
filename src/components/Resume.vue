@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+    <div class="noise" :class="{ 'noise--printmode': printMode }" />
     <SideBar
       :links="currentCv.links"
       :cv="currentCv.cv"
@@ -89,6 +90,24 @@ export default {
 <style scoped>
 .wrapper {
   position: relative;
+}
+
+.noise {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  content: "";
+  opacity: 0.05;
+  mix-blend-mode: color-burn;
+  background-image: url(~@/assets/images/noise.gif);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.noise--printmode {
+  display: none;
 }
 
 .resume {
