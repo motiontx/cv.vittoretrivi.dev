@@ -73,10 +73,12 @@ export default {
   },
   created() {
     this.lang = this.$route.params.locale;
+    document.documentElement.lang = this.lang;
   },
   watch: {
     $route() {
       this.lang = this.$route.params.locale;
+      document.documentElement.lang = this.lang;
     },
   },
   computed: {

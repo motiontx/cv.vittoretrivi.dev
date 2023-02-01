@@ -2,12 +2,12 @@
   <div class="side-bar" v-if="!printMode">
     <div class="container">
       <router-link v-if="lang == 'es'" to="/en" replace>
-        <a class="button button-flag">
+        <a class="button button-flag" aria-label="English">
           <ARGFlag class="flag" />
         </a>
       </router-link>
       <router-link v-else-if="lang === 'en'" to="/es" replace>
-        <a class="button button-flag">
+        <a class="button button-flag" aria-label="Español">
           <USFlag class="flag" />
         </a>
       </router-link>
@@ -59,7 +59,7 @@ export default {
     },
     printMode: {
       type: Boolean,
-      required: true,
+      required: false,
     },
   },
   methods: {
