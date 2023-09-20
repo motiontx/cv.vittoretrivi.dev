@@ -1,210 +1,20 @@
 <template>
   <svg
-    v-if="language === 'es'"
     xmlns="http://www.w3.org/2000/svg"
     width="200"
     height="200"
     baseProfile="tiny"
-    viewBox="11 11 178 178"
+    viewBox="0 0 1000 1000"
   >
     <path
       fill="var(--heavy-metal)"
-      d="M12 12h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zM12 19h7v7h-7zm42 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm35 0h7v7h-7zm42 0h7v7h-7zM12 26h7v7h-7z"
       shape-rendering="optimizeSpeed"
+      d="M360 0h-40v40h40V0Zm120 0h-40v40h40V0Zm40 0h-40v40h40V0Zm40 0h-40v40h40V0Zm120 0h-40v40h40V0ZM360 40h-40v40h40V40Zm40 0h-40v40h40V40Zm40 0h-40v40h40V40Zm80 0h-40v40h40V40Zm80 0h-40v40h40V40ZM480 80h-40v40h40V80Zm80 0h-40v40h40V80Zm40 0h-40v40h40V80Zm40 0h-40v40h40V80Zm40 0h-40v40h40V80Zm-320 40h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm-280 40h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm-160 40h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm-320 40h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm-320 40h-40v40h40v-40Zm40 0h-40v40h40v-40Zm200 0h-40v40h40v-40Zm80 0h-40v40h40v-40ZM40 320H0v40h40v-40Zm80 0H80v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm160 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm-600 40h-40v40h40v-40Zm40 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm160 0h-40v40h40v-40ZM80 400H40v40h40v-40Zm40 0H80v40h40v-40Zm160 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40ZM40 440H0v40h40v-40Zm40 0H40v40h40v-40Zm120 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm160 0h-40v40h40v-40Zm40 0h-40v40h40v-40ZM80 480H40v40h40v-40Zm40 0H80v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40ZM80 520H40v40h40v-40Zm120 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm160 0h-40v40h40v-40ZM80 560H40v40h40v-40Zm40 0H80v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40ZM40 600H0v40h40v-40Zm280 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm240 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm160 0h-40v40h40v-40Zm-840 40h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm-640 40h-40v40h40v-40Zm160 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm160 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm-640 40h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm-640 40h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm160 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm-560 40h-40v40h40v-40Zm80 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm-640 40h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm160 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm-640 40h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm160 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm-520 40h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm80 0h-40v40h40v-40Zm-560 40h-40v40h40v-40Zm80 0h-40v40h40v-40Zm120 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm160 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40Zm40 0h-40v40h40v-40ZM0 0v280h280V0H0Zm238 238H42V42h196v196ZM720 0v280h280V0H720Zm238 238H762V42h196v196ZM0 720v280h280V720H0Zm238 238H42V762h196v196Z"
     />
     <path
       fill="var(--carmine)"
-      d="M26 26h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
       shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M54 26h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M152 26h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M180 26h7v7h-7zM12 33h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M26 33h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M54 33h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M152 33h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M180 33h7v7h-7zM12 40h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M26 40h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M54 40h7v7h-7zm21 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M152 40h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M180 40h7v7h-7zM12 47h7v7h-7zm42 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm21 0h7v7h-7zm14 0h7v7h-7zm42 0h7v7h-7zM12 54h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm-98 7h7v7h-7zm14 0h7v7h-7zm-84 7h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm28 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zM12 75h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm14 0h7v7h-7zm28 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zM19 82h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zM12 89h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm28 0h7v7h-7zm21 0h7v7h-7zm21 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zM12 96h7v7h-7zm21 0h7v7h-7zm21 0h7v7h-7zm14 0h7v7h-7zm56 0h7v7h-7zm14 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm-168 7h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm21 0h7v7h-7zm-147 7h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm-126 7h7v7h-7zm42 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm-161 7h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm21 0h7v7h-7zm28 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm-98 7h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm14 0h7v7h-7zm-154 7h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm-147 7h7v7h-7zm42 0h7v7h-7zm14 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm28 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm-168 7h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M26 152h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M54 152h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm28 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm-161 7h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M26 159h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M54 159h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm-168 7h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M26 166h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M54 166h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm-161 7h7v7h-7zm42 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm-161 7h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm49 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-  </svg>
-  <svg
-    v-else
-    xmlns="http://www.w3.org/2000/svg"
-    width="200"
-    height="200"
-    baseProfile="tiny"
-    viewBox="11 11 178 178"
-  >
-    <path
-      fill="var(--heavy-metal)"
-      d="M12 12h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm21 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zM12 19h7v7h-7zm42 0h7v7h-7zm28 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm42 0h7v7h-7zM12 26h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M26 26h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M54 26h7v7h-7zm14 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm21 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M152 26h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M180 26h7v7h-7zM12 33h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M26 33h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M54 33h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M152 33h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M180 33h7v7h-7zM12 40h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M26 40h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M54 40h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm35 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M152 40h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M180 40h7v7h-7zM12 47h7v7h-7zm42 0h7v7h-7zm21 0h7v7h-7zm28 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm42 0h7v7h-7zM12 54h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm-84 7h7v7h-7zm28 0h7v7h-7zM12 68h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm21 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zM33 75h7v7h-7zm7 0h7v7h-7zm49 0h7v7h-7zm21 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm28 0h7v7h-7zM19 82h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm56 0h7v7h-7zM12 89h7v7h-7zm14 0h7v7h-7zm49 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zM12 96h7v7h-7zm35 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm-147 7h7v7h-7zm35 0h7v7h-7zm28 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm-161 7h7v7h-7zm21 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm70 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm-161 7h7v7h-7zm28 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm35 0h7v7h-7zm28 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm-154 7h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm-112 7h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm28 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm-168 7h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm14 0h7v7h-7zm28 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm-168 7h7v7h-7zm42 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm21 0h7v7h-7zm7 0h7v7h-7zm28 0h7v7h-7zm28 0h7v7h-7zm-168 7h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M26 152h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M54 152h7v7h-7zm28 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm-168 7h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M26 159h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M54 159h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm-168 7h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--carmine)"
-      d="M26 166h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
-    />
-    <path
-      fill="var(--heavy-metal)"
-      d="M54 166h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm-161 7h7v7h-7zm42 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm21 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm14 0h7v7h-7zm-154 7h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm14 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm35 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7zm7 0h7v7h-7z"
-      shape-rendering="optimizeSpeed"
+      d="M200 80H80v120h120V80Zm720 0H800v120h120V80ZM200 800H80v120h120V800Z"
     />
   </svg>
 </template>
@@ -212,11 +22,5 @@
 <script>
 export default {
   name: "QRCode",
-  props: {
-    language: {
-      type: String,
-      default: "en",
-    },
-  },
 };
 </script>

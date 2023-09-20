@@ -24,13 +24,12 @@ export const heading = {
         ". My passion is focused on developing digital solutions with a strong emphasis on design, usability and accessibility. Visit ",
     },
     {
-      text: "hub.vittoretrivi.dev",
+      text: "vittoretrivi.dev",
       type: "link",
-      link: "https://hub.vittoretrivi.dev/en",
+      link: "https://www.vittoretrivi.dev",
     },
     {
       text: " to learn more about me and my projects.",
     },
   ],
-  qr: "en",
 };

@@ -24,13 +24,12 @@ export const heading = {
         ". Mi pasión está en desarrollar soluciones digitales poniendo en ellas un gran énfasis en el diseño, usabilidad y accesibilidad. Visita ",
     },
     {
-      text: "hub.vittoretrivi.dev/es",
+      text: "vittoretrivi.dev",
       type: "link",
-      link: "https://hub.vittoretrivi.dev/es",
+      link: "https://www.vittoretrivi.dev",
     },
     {
       text: " para conocer más acerca de mi y mis proyectos.",
     },
   ],
-  qr: "es",
 };

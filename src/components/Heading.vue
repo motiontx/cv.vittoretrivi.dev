@@ -6,7 +6,7 @@
         {{ heading.introduction }}<span class="accent">{{ heading.name }}</span
         >.
       </h1>
-      <QRCode class="qr-code" :language="heading.qr" />
+      <QRCode class="qr-code" />
     </div>
     <p class="uppercase bold title">{{ heading.title }}</p>
     <p class="description" v-html="formattedDescription" />
