@@ -2,26 +2,47 @@ export const heading = {
   greeting: "Hi.",
   introduction: "I'm ",
   name: "Vittorio Retrivi",
-  title:
-    "Full Stack JavaScript Developer | Advanced Student of Systems Engineering",
+  title: "Full Stack JavaScript Developer | Information Systems Engineer",
   description: [
     {
       text: "Currently working with ",
     },
     {
-      text: "React/Next",
+      text: "Next.js (React)",
       type: "bold",
     },
     {
       text: " and ",
     },
     {
-      text: "Vue/Nuxt",
+      text: "Nuxt.js (Vue)",
       type: "bold",
     },
     {
       text:
-        ". My passion is focused on developing digital solutions with a strong emphasis on design, usability and accessibility. Visit ",
+        ". I am passionate about crafting digital solutions with a strong emphasis on ",
+    },
+    {
+      text: "design",
+      type: "bold",
+    },
+    {
+      text: ", ",
+    },
+    {
+      text: "usability",
+      type: "bold",
+    },
+    {
+      text: " and ",
+    },
+    {
+      text: "accessibility",
+      type: "bold",
+    },
+    {
+      text:
+        ". I enjoy creating apps and web experiences that involve meaningful interaction with the user. Visit ",
     },
     {
       text: "vittoretrivi.dev",

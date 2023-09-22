@@ -7,6 +7,6 @@ export const jobs = [
     city: "San Francisco",
     country: "USA",
     description:
-      "Involved in multiple projects with a strong focus on UX/UI using frameworks such as React/Next and Vue/Nuxt. I have developed high quality user interfaces for different websites that required the use of Three.js to implement custom shaders, create Vanilla JavaScript animations, animate SVGs, implement Framer Motion for complex transitions, among other tasks.",
+      "I have been involved in more than ten projects ranging from complete websites with a strong focus on UX/UI to full-stack products, using frameworks such as Next.js (React) and Nuxt.js (Vue). Additionally, I've crafted complex user interfaces for various websites, which involved tasks such as implementing custom shaders using Three.js, creating animations with Vanilla JavaScript, animating SVGs, utilizing Framer Motion for complex transitions, among other responsibilities.",
   },
 ];

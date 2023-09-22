@@ -27,11 +27,18 @@ export const skills = [
       url: "https://www.typescriptlang.org/",
     },
   ],
-  [{ skill: "SASS", color: "#cc6699", url: "https://sass-lang.com/" }],
+  [
+    {
+      skill: "Tailwind CSS",
+      color: "#38bdf8",
+      url: "https://tailwindcss.com/",
+    },
+    { skill: "SASS", color: "#cc6699", url: "https://sass-lang.com/" },
+  ],
   [
     {
       skill: "Contentful",
-      color: "#0b6ae6",
+      color: "#eb5a68",
       url: "https://www.contentful.com/",
     },
     {
@@ -42,8 +49,9 @@ export const skills = [
   ],
 
   [
+    { skill: "Shadcn UI", color: "#000000", url: "https://shadcn/ui/" },
     { skill: "Chakra UI", color: "#319795", url: "https://chakra-ui.com/" },
-    { skill: "Material UI", color: "#0364d4", url: "https://material-ui.com/" },
+    { skill: "MUI", color: "#0364d4", url: "https://material-ui.com/" },
   ],
 
   [

@@ -7,7 +7,7 @@ export const meta = {
     {
       name: "description",
       content:
-        "Vittorio Retrivi - Full Stack JavaScript Developer | Advanced Student of Systems Engineering",
+        "Vittorio Retrivi - Full Stack JavaScript Developer | Information Systems Engineer",
     },
     { name: "language", content: "en" },
     {

@@ -24,13 +24,13 @@ export default {
 
 .section:hover .section-title::after {
   width: 18mm;
-  height: 1mm;
+  height: 0.9mm;
   background-color: var(--carmine);
 }
 
 .section-title {
   position: relative;
-  padding-bottom: 4mm;
+  padding-bottom: 2.5mm;
   margin-bottom: 4mm;
 }
 
@@ -41,7 +41,7 @@ export default {
   content: "";
   background-color: var(--heavy-metal);
   width: 6.6mm;
-  height: 1.5mm;
+  height: 1.2mm;
   transition: 0.3s all;
 }
 </style>

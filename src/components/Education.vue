@@ -30,7 +30,7 @@ export default {
 
 <style scoped>
 .course:not(:last-child) {
-  margin-bottom: 2mm;
+  margin-bottom: 1mm;
 }
 
 .date {

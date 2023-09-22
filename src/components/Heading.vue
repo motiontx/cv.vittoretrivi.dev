@@ -52,7 +52,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 3.8mm;
+  margin-bottom: 4mm;
 }
 
 .qr-code {
@@ -61,8 +61,8 @@ export default {
 }
 
 .title {
-  margin-top: 2mm;
-  margin-bottom: 2mm;
+  margin-top: 1mm;
+  margin-bottom: 1mm;
 }
 
 .description {

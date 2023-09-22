@@ -7,7 +7,7 @@ export const meta = {
     {
       name: "description",
       content:
-        "Vittorio Retrivi - Desarrollador Full Stack JavaScript | Estudiante avanzado de Ingeniería en Sistemas",
+        "Vittorio Retrivi - Desarrollador Full Stack JavaScript | Ingeniero en Sistemas de Información",
     },
     { name: "language", content: "es" },
     {

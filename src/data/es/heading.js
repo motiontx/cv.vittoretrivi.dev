@@ -3,25 +3,47 @@ export const heading = {
   introduction: "Soy ",
   name: "Vittorio Retrivi",
   title:
-    "Desarrollador Full Stack JavaScript | Estudiante avanzado de Ingeniería en Sistemas",
+    "Desarrollador Full Stack JavaScript | Ingeniero en Sistemas de Información",
   description: [
     {
       text: "Trabajando actualmente con ",
     },
     {
-      text: "React/Next",
+      text: "Next.js (React)",
       type: "bold",
     },
     {
       text: " y ",
     },
     {
-      text: "Vue/Nuxt",
+      text: "Nuxt.js (Vue)",
       type: "bold",
     },
     {
       text:
-        ". Mi pasión está en desarrollar soluciones digitales poniendo en ellas un gran énfasis en el diseño, usabilidad y accesibilidad. Visita ",
+        ". Me apasiona crear soluciones digitales con un fuerte énfasis en el  ",
+    },
+    {
+      text: "diseño",
+      type: "bold",
+    },
+    {
+      text: ", ",
+    },
+    {
+      text: "usabilidad",
+      type: "bold",
+    },
+    {
+      text: " y ",
+    },
+    {
+      text: "accesibilidad",
+      type: "bold",
+    },
+    {
+      text:
+        ". Disfruto creando aplicaciones y experiencias web que impliquen una fuerte interacción con el usuario. Visita ",
     },
     {
       text: "vittoretrivi.dev",

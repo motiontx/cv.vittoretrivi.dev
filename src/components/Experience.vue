@@ -32,7 +32,7 @@ export default {
 
 <style scoped>
 .job:not(:last-child) {
-  margin-bottom: 2mm;
+  margin-bottom: 1mm;
 }
 
 .date {
