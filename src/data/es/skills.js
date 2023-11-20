@@ -26,6 +26,7 @@ export const skills = [
       color: "#007acc",
       url: "https://www.typescriptlang.org/",
     },
+    { skill: "Radix UI", color: "#1d2024", url: "https://radix-ui.com/" },
   ],
   [
     {
@@ -55,9 +56,9 @@ export const skills = [
   ],
 
   [
-    { skill: "Node.js", color: "#68a063", url: "https://nodejs.org/" },
     { skill: "Prisma", color: "#38a169", url: "https://prisma.io/" },
-    { skill: "MongoDB", color: "#5C3629", url: "https://www.mongodb.com/" },
+    { skill: "TanStack Query", color: "#ef4444", url: "https://tanstack.com/query/" },
+    { skill: "Clerk", color: "#6c47ff", url: "https://clerk.com/" },
   ],
   [{ skill: "Design Systems", color: "#e05a33" }],
 ];

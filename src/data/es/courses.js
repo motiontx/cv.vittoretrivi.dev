@@ -7,7 +7,7 @@ export const courses = [
   },
   {
     date: "2018",
-    degree: "Desarrollo de Aplicaciones Móviles",
+    degree: "Desarrollo de Apps Móviles",
     institution: "Comunidad IT",
     url: "https://www.comunidadit.org/",
   },
