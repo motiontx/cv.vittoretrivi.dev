@@ -4,9 +4,16 @@
       <small class="bold uppercase date">{{ j.date }}</small>
       <p class="bold uppercase accent title">{{ j.position }}</p>
       <p class="bold title">
+        <img
+          v-if="j.logo"
+          class="logo"
+          :src="`images/${j.logo}`"
+          :alt="`${j.company} logo`"
+        />
         <a class="uppercase bold link" :href="j.url" target="_blank">{{
           j.company
         }}</a>
+
         | {{ j.city }},
         {{ j.country }}
       </p>
@@ -42,5 +49,15 @@ export default {
 
 .title {
   line-height: 1.2;
+}
+
+.company {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo {
+  height: 0.50625rem;
+  margin-right: 0.25rem;
 }
 </style>

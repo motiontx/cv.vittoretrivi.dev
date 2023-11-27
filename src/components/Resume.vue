@@ -10,17 +10,25 @@
     <div class="resume" :class="{ 'resume--printmode': printMode }">
       <div class="container">
         <Heading :heading="currentCv.heading" />
-        <div class="grid">
+        <div class="desktop">
           <div class="column--1">
+            <Education :courses="currentCv.courses" />
             <Skills :skills="currentCv.skills" />
             <Qualities :qualities="currentCv.qualities" />
-            <Languages :languages="currentCv.languages" />
           </div>
           <div class="column--2">
             <Experience :jobs="currentCv.jobs" />
             <Education :courses="currentCv.studies" />
-            <Education :courses="currentCv.courses" class="courses" />
+            <Languages :languages="currentCv.languages" />
           </div>
+        </div>
+        <div class="mobile">
+          <Experience :jobs="currentCv.jobs" />
+          <Education :courses="currentCv.studies" />
+          <Education :courses="currentCv.courses" />
+          <Languages :languages="currentCv.languages" />
+          <Skills :skills="currentCv.skills" />
+          <Qualities :qualities="currentCv.qualities" />
         </div>
         <Contact :contact="currentCv.contact" />
       </div>
@@ -143,11 +151,16 @@ export default {
   flex-direction: column;
 }
 
-.grid {
+.desktop {
   display: grid;
   margin-top: 8mm;
   grid-template-columns: 58mm 1fr;
   grid-column-gap: 9mm;
+}
+
+.mobile {
+  margin-top: 8mm;
+  display: none;
 }
 
 .column--1 {
@@ -164,10 +177,6 @@ export default {
   bottom: 2.5mm;
   opacity: 0.25;
   font-size: 0.5rem;
-}
-
-.courses {
-  margin-bottom: 0mm;
 }
 
 @media screen and (max-width: 240mm) {
@@ -191,6 +200,14 @@ export default {
 }
 
 @media screen and (max-width: 202mm) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
   .column--1,
   .column--2 {
     grid-column: 1/3;
@@ -213,10 +230,6 @@ export default {
 
   .version {
     display: none;
-  }
-
-  .courses {
-    margin-bottom: 7mm;
   }
 }
 </style>
