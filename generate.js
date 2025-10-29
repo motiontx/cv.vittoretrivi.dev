@@ -12,7 +12,10 @@ const options = (fileName) => ({
 });
 
 const generate = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
 
   const page = await browser.newPage();
 
@@ -25,4 +28,7 @@ const generate = async () => {
   await browser.close();
 };
 
-generate();
+generate().catch(err => {
+  console.error("Error generating PDFs:", err);
+  process.exit(1);
+});
