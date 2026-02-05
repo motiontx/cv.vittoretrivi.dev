@@ -7,7 +7,7 @@ const cv = {
     es: spanish,
   },
   options: {
-    version: "1.4",
+    version: "1.5",
   },
 };
 

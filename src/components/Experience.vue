@@ -17,7 +17,7 @@
         | {{ j.city }},
         {{ j.country }}
       </p>
-      <p>{{ j.description }}</p>
+      <p class="description">{{ j.description }}</p>
     </div>
   </Section>
 </template>
@@ -59,5 +59,9 @@ export default {
 .logo {
   height: 0.50625rem;
   margin-right: 0.25rem;
+}
+
+.description {
+  text-wrap: pretty;
 }
 </style>

@@ -1,10 +1,10 @@
 export const languages = [
   {
-    name: "Spanish",
-    level: "Native",
+    name: "English",
+    level: "Advanced",
   },
   {
-    name: "English",
-    level: "Upper Intermediate",
+    name: "Spanish",
+    level: "Native",
   },
 ];

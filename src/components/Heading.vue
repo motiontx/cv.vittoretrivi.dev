@@ -68,6 +68,7 @@ export default {
 .description {
   margin-top: 2mm;
   margin-bottom: 2mm;
+  text-wrap: pretty;
 }
 
 @media screen and (max-width: 202mm) {

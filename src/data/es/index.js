@@ -1,6 +1,5 @@
 import { heading } from "./heading";
 import { skills } from "./skills";
-import { qualities } from "./qualities";
 import { languages } from "./languages";
 import { jobs } from "./jobs";
 import { studies } from "./studies";
@@ -20,10 +19,6 @@ const data = {
   skills: {
     title: "Conocimientos",
     skills: skills,
-  },
-  qualities: {
-    title: "Cualidades",
-    qualities: qualities,
   },
   languages: {
     title: "Idiomas",

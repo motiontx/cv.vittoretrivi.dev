@@ -2,25 +2,25 @@ export const heading = {
   greeting: "Hi.",
   introduction: "I'm ",
   name: "Vittorio Retrivi",
-  title: "Full Stack JavaScript Developer | Information Systems Engineer",
+  title: "Creative JavaScript Developer | Information Systems Engineer",
   description: [
     {
       text: "Currently working with ",
     },
     {
-      text: "Next.js (React)",
+      text: "Next.js",
       type: "bold",
     },
     {
       text: " and ",
     },
     {
-      text: "Nuxt.js (Vue)",
+      text: "Three.js",
       type: "bold",
     },
     {
       text:
-        ". I am passionate about crafting digital solutions with a strong emphasis on ",
+        " to create immersive web experiences rich in 3D content and motion graphics. Passionate about crafting digital solutions that balance ",
     },
     {
       text: "design",
@@ -42,15 +42,7 @@ export const heading = {
     },
     {
       text:
-        ". I enjoy creating apps and web experiences that involve meaningful interaction with the user. Visit ",
-    },
-    {
-      text: "vittoretrivi.dev",
-      type: "link",
-      link: "https://www.vittoretrivi.dev",
-    },
-    {
-      text: " to learn more about me and my projects.",
+        ". I focus on building meaningful, interactive experiences for users.",
     },
   ],
 };

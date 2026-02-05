@@ -14,12 +14,11 @@
           <div class="column--1">
             <Education :courses="currentCv.courses" />
             <Skills :skills="currentCv.skills" />
-            <Qualities :qualities="currentCv.qualities" />
+            <Languages :languages="currentCv.languages" />
           </div>
           <div class="column--2">
             <Experience :jobs="currentCv.jobs" />
             <Education :courses="currentCv.studies" />
-            <Languages :languages="currentCv.languages" />
           </div>
         </div>
         <div class="mobile">
@@ -28,7 +27,6 @@
           <Education :courses="currentCv.courses" />
           <Languages :languages="currentCv.languages" />
           <Skills :skills="currentCv.skills" />
-          <Qualities :qualities="currentCv.qualities" />
         </div>
         <Contact :contact="currentCv.contact" />
       </div>
@@ -44,7 +42,6 @@ import SideBar from "./SideBar.vue";
 
 import Heading from "./Heading";
 import Skills from "./Skills";
-import Qualities from "./Qualities";
 import Experience from "./Experience";
 import Education from "./Education";
 import Languages from "./Languages.vue";
@@ -58,7 +55,6 @@ export default {
     SideBar,
     Heading,
     Skills,
-    Qualities,
     Experience,
     Education,
     Languages,
@@ -144,8 +140,8 @@ export default {
   border: 2mm black solid;
   width: calc(100% - 8.2mm * 2);
   height: calc(100% - 8.2mm * 2);
-  padding: 8.2mm;
-  padding-bottom: 4.1mm;
+  padding: 8mm;
+  padding-bottom: 4mm;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -155,7 +151,7 @@ export default {
   display: grid;
   margin-top: 8mm;
   grid-template-columns: 58mm 1fr;
-  grid-column-gap: 9mm;
+  grid-column-gap: 8mm;
 }
 
 .mobile {
@@ -173,7 +169,7 @@ export default {
 
 .version {
   position: absolute;
-  right: 8.2mm;
+  right: 8mm;
   bottom: 2.5mm;
   opacity: 0.25;
   font-size: 0.5rem;
@@ -181,17 +177,14 @@ export default {
 
 @media screen and (max-width: 240mm) {
   .wrapper {
-    padding: 10mm;
-  }
-  .wrapper {
-    padding: 4.1mm;
+    padding: 4mm;
     height: unset;
   }
   .container {
     width: unset;
-    margin: 8.2mm;
-    padding: 8.2mm;
-    padding-bottom: 4.1mm;
+    margin: 8mm;
+    padding: 8mm;
+    padding-bottom: 4mm;
   }
 
   .resume {
@@ -218,14 +211,14 @@ export default {
   }
 
   .wrapper {
-    padding: 3.1mm;
+    padding: 4mm;
   }
 
   .container {
     border-width: 1mm;
     width: unset;
-    margin: 3.1mm;
-    padding: 3.1mm;
+    margin: 2mm;
+    padding: 2mm;
   }
 
   .version {

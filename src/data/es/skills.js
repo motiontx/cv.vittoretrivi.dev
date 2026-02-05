@@ -1,24 +1,20 @@
 export const skills = [
   [
-    { skill: "Javascript", color: "#f0db4f" },
-    { skill: "HTML", color: "#f06529" },
-    { skill: "CSS", color: "#2965f1" },
-  ],
-  [
     { skill: "React", color: "#0364d4", url: "https://reactjs.org/" },
     { skill: "Next.js", color: "#000000", url: "https://nextjs.org/" },
   ],
   [
-    { skill: "Vue", color: "#42b883", url: "https://vuejs.org/" },
-    { skill: "Nuxt.js", color: "#35495e", url: "https://nuxtjs.org/" },
+    { skill: "Three.js", color: "#000000", url: "https://threejs.org/" },
+    { skill: "R3F", color: "#000000", url: "https://docs.pmnd.rs/react-three-fiber" },
+    { skill: "WebGL", color: "#000000", url: "https://www.khronos.org/webgl" },
   ],
   [
-    { skill: "Three.js", color: "#000000", url: "https://threejs.org/" },
     {
-      skill: "Framer Motion",
+      skill: "Motion",
       color: "#ff008c",
-      url: "https://www.framer.com/motion/",
+      url: "https://motion.dev",
     },
+    { skill: "GSAP", color: "#0ae448", url: "https://greensock.com/gsap" },
   ],
   [
     {
@@ -26,7 +22,6 @@ export const skills = [
       color: "#007acc",
       url: "https://www.typescriptlang.org/",
     },
-    { skill: "Radix UI", color: "#1d2024", url: "https://radix-ui.com/" },
   ],
   [
     {
@@ -38,27 +33,29 @@ export const skills = [
   ],
   [
     {
-      skill: "Contentful",
-      color: "#eb5a68",
-      url: "https://www.contentful.com/",
+      skill: "Sanity",
+      color: "#0d0e12",
+      url: "https://www.sanity.io",
     },
     {
-      skill: "WordPress API",
-      color: "#0073aa",
-      url: "https://developer.wordpress.org/rest-api/",
+      skill: "Contentful",
+      color: "#eb5a68",
+      url: "https://www.contentful.com",
+    },
+    {
+      skill: "BaseHub",
+      color: "#FF6C02",
+      url: "https://basehub.com",
     },
   ],
-
-  [
-    { skill: "Shadcn UI", color: "#000000", url: "https://shadcn/ui/" },
-    { skill: "Chakra UI", color: "#319795", url: "https://chakra-ui.com/" },
-    { skill: "MUI", color: "#0364d4", url: "https://material-ui.com/" },
-  ],
-
   [
     { skill: "Prisma", color: "#38a169", url: "https://prisma.io/" },
     { skill: "TanStack Query", color: "#ef4444", url: "https://tanstack.com/query/" },
     { skill: "Clerk", color: "#6c47ff", url: "https://clerk.com/" },
   ],
-  [{ skill: "Design Systems", color: "#e05a33" }],
+  [
+    { skill: "Shadcn UI", color: "#000000", url: "https://shadcn/ui/" },
+    { skill: "Base UI", color: "#2e2e2e", url: "https://base-ui.com/" },
+    { skill: "Radix UI", color: "#1d2024", url: "https://radix-ui.com/" },
+  ],
 ];

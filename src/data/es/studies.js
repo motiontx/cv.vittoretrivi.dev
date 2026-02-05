@@ -5,9 +5,4 @@ export const studies = [
     institution: "Universidad Tecnológica Nacional F.R.Ro.",
     url: "https://www.frro.utn.edu.ar/",
   },
-  {
-    date: "2016",
-    degree: "Bachiller en Comunicación",
-    institution: "Colegio ICADE Pergamino",
-  },
 ];
